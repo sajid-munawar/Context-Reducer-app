@@ -4,7 +4,7 @@ import { Parent } from './Parent';
 import ValueContext from './ValueContext';
 
 function App() {
-  let value=useState(45)
+  let value=useState(5)
   return (
 
     <ValueContext.Provider value={value}>
