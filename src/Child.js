@@ -7,7 +7,8 @@ export const Child = () => {
 
     return (
         <div>
-            <h1>This is the value from context {value}</h1>
+            <h1>This is the value from context {value[0]}</h1>
+            <button onClick={()=>{value[1](++value[0])}}>Increment</button>
         </div>
     )
 }
