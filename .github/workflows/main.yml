@@ -39,4 +39,4 @@ jobs:
       run: npm install -g surge
        
     - name: deploying on surge
-      run: surge ./build sajid_react_reducer.surge.sh --token ${{ secrets.MY_SURGE_TOKEN }}
+      run: surge ./build class5_react_reducer.surge.sh --token ${{ secrets.MY_SURGE_TOKEN }}
