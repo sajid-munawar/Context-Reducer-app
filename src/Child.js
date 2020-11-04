@@ -6,7 +6,7 @@ export const Child = () => {
     let value = useContext(ValueContext);
 
     return (
-        <div>
+        <div className="c1">
             <h1>This is the value from context {value[0]}</h1>
             <button onClick={() => { value[1](++value[0]) }}>Increment</button>
             <br />  
