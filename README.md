@@ -1,3 +1,5 @@
+### children components must be wrapped into the context provider
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
